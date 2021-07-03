@@ -341,7 +341,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://waline.runrab.com/ # Waline server address url
+  serverURL: https://waline.runrab.com # Waline server address url
   avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
   bg: # waline background
   visitor: false
@@ -761,7 +761,7 @@ darkmode:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: true
+medium_zoom: false
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
@@ -784,8 +784,8 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: flat
-  icons: true
+  style: simple
+  icons: false
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
@@ -800,14 +800,13 @@ note:
 pjax:
   enable: true
   exclude:
-     - /archives/16107    
-     - /archives/855e324c  
+     - /archives/16107/
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -863,14 +862,17 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     #- <link rel="stylesheet" href="/lab/css/diy.css">    
+    #- <link rel="stylesheet" href="https://butterfly.lete114.top/css/Lete.css">
+    - <link rel="stylesheet" href="/lab/css/Lete.css">    
+    
   bottom:
     # - <script src="xxxx"></script>
-    #- <div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="true" muted></div>
-    #- <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+    - <div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div>
+    - <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
     #- <script src="/lab/js/xkTool.js"></script>
-    #- <script data-pjax src="/lab/js/diy.js"></script>   
-    - <link rel="stylesheet" href="https://butterfly.lete114.top/css/Lete.css">
-    - <script data-pjax src="https://butterfly.lete114.top/js/Lete.js"></script>    
+    #- <script data-pjax src="/lab/js/diy.js"></script>  
+    #- <script data-pjax src="https://butterfly.lete114.top/js/Lete.js"></script>        
+    - <script data-pjax src="/lab/js/Lete.js"></script>    
 
 # CDN
 # Don't modify the following settings unless you know how they work
