@@ -1,56 +1,31 @@
-/**背景设置页*/
-// 获取标签
-   // 全局背景div
-   var web_bg = document.getElementById("web_bg");
-   // 公共父级
-   var content_inner = document.getElementById("content-inner");
-   // 获取Cookies
-   // 透明度
-   var opacity = Cookies.get("opacity");
-   // 背景
-   var bg = Cookies.get("bg");
-   // 动画
-   var animation = Cookies.get("animation");
-   // 背景类型
-   var type = Cookies.get("type");
-   // 声明遍历 用于记录当前color
-   // 设置背景
-   if (bg) {
-     web_bg.style.background = bg;
-     web_bg.setAttribute("data-type", type);
-     if (animation) {
-       web_bg.style.animation = animation;
-     }
-   }
-   function setColor(opacity) {
-     // style="--light_bg_color: rgb(255, 255, 255,.3);--dark_bg_color: rgba(18,18,18,.2);"
-     var light_bg_color = "--light_bg_color: rgb(255, 255, 255," + opacity + ");";
-     var dark_bg_color = "--dark_bg_color: rgba(18,18,18," + opacity + ");";
-     content_inner.setAttribute("style", light_bg_color + dark_bg_color);
-   }
-   setColor(opacity);
-// 获取标签
-   // 全局背景div
-   /**
-   var web_bg = document.getElementById("web_bg");
-   // 公共父级
-   var content_inner = document.getElementById("content-inner");
-@ -30,14 +29,10 @@
-     content_inner.setAttribute("style", light_bg_color + dark_bg_color);
-   }
-   setColor(opacity);
-   
-   */
-   
-/**去掉 Banner 图
-var full_page = document.getElementsByClassName("full_page");
-if (full_page.length != 0) {
-  full_page[0].style.background = "transparent";
-}*/
-/** Banner 图透明*/
-var xiaokang = new xkTool("transparent");
+/*添加图片top*/
+var top_up = "<img id='upj' class='upj' style='max-width: 1000%; transform: translate(-70px,-70px);' src='https://cdn.jsdelivr.net/gh/lete114/CDN/Use/up.gif' title='回到顶部' >";
+/*添加到返回顶部按钮下*/
+document.getElementById("go-up").innerHTML += top_up;
+/* 手机客户端导航栏默认隐藏 */
+var mobile_sidebar_menus = document.getElementById("mobile-sidebar-menus");
+var menus_item_child = mobile_sidebar_menus.getElementsByClassName("menus_item_child");
+var menus_expand = mobile_sidebar_menus.getElementsByClassName("expand");
+for (var i = 0; i < menus_item_child.length; i++) {
+    menus_item_child[i].style.display = "none";
+    menus_expand[i].className += " closed";
 }
-
+// 可爱的Title
+var OriginTitle = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+        $('[rel="icon"]').attr('href', "/img/favicon.ico");
+        document.title = '(つェ⊂) 我藏好了哦~~';
+        clearTimeout(titleTime);
+    } else {
+        $('[rel="icon"]').attr('href', "/img/favicon.ico");
+        document.title = '(*´∇｀*) 被你发现啦~~' + OriginTitle;
+        titleTime = setTimeout(function() {
+            document.title = OriginTitle;
+        }, 2000);
+    }
+});
 // 气泡
 function qipao() {
     $('#page-header').circleMagic({
@@ -98,4 +73,6 @@ function qipao() {
 
 // 调用气泡方法
 qipao();
-
+$(document).ready(function(e) {
+    $('.copyright').html('©2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> Lete乐特');
+});

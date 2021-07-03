@@ -15,7 +15,7 @@ timezone:
 url: https://www.runrab.com
 root: /
 #permalink: :year/:month/:day/:title/
-permalink: archives/:abbrlink.html
+permalink: archives/:abbrlink
 permalink_defaults:
 pretty_urls:
   trailing_index: true
@@ -38,7 +38,11 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+#external_link: true # Open external links in new tab
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -98,12 +102,12 @@ feed:
 #追番
 bangumi:
   enable: true
-  path: /fun/index.html
+  path: /bangumis/index.html
   vmid: 406109915
   title: '追番列表'
   quote: '生命不息，追番不止！'
   show: 1
-  loading: '/img/bangumi-loading.gif' 
+  loading: '/lab/img/bangumi-loading.gif' 
   metaColor:
   color:
   webp: true
