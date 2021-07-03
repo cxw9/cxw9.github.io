@@ -83,11 +83,12 @@
 	
 
 body {
-  background-color: #0090d6;
+  background-color: #00000000;
 }
 /*页脚透明*/
+/*透明  #00000000*/
 #footer {
-  background: #00000000;
+  background: #FFFFFF;
 }
 	
 	
