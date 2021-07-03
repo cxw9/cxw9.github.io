@@ -21,4 +21,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index: 
+swiper_desc: 
+swiper_cover: 
 ---

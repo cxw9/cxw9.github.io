@@ -21,6 +21,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index: 5
+swiper_desc: 
+swiper_cover: 
 ---
 
 ```java

@@ -1,6 +1,9 @@
 ---
 title: Hello World
 abbrlink: 16107
+swiper_index: 1
+swiper_desc: 
+swiper_cover: 
 ---
 
 # 一 ：关于网站

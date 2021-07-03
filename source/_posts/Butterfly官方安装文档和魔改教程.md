@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index: 2
+swiper_desc: 
+swiper_cover: 
 ---
 #### 官方文档链接：
 

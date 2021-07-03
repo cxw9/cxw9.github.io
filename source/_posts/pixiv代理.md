@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index: 6
+swiper_desc: 
+swiper_cover: 
 ---
 
 # pixiv代理
