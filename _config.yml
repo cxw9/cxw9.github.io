@@ -269,14 +269,15 @@ baidu_url_submit:
 # 百度站点地图
 baidusitemap:
   path: baidusitemap.xml  
+#相关文章推荐  
 related_posts:
   enable: true
   title: 相关文章推荐 # Custom header, leave empty to use the default one
-  display_in_home: false
+  display_in_home: true
   params:
     maxCount: 5
     PPMixingRate: 0.25
-    isDate: false
+    isDate: true
     isImage: false
     isExcerpt: false
 #减少外链    hexo-filter-nofollow  
@@ -285,4 +286,36 @@ nofollow:
   field: site
   exclude:
     - 'netapi.top'
-    - 'sssj.top'  
+    - 'sssj.top'
+# artitalk see https://artitalk.js.org/
+# hexo-butterfly-artitalk-pro
+# see https://akilar.top/posts/f1004b1d/
+artitalk:
+  enable:
+    card: true # 侧边栏开关
+    page: true #页面开关
+  # 侧栏相关配置项
+  priority: 8 #过滤器优先权
+  enable_page: all # 应用页面
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  # 页面相关配置项
+  path: artitalk
+  front_matter:
+    title: 碎碎念
+  # 公共配置项
+  appId: Q6eWOea6YF3UegICqQb577G5-MdYXbMMI
+  appKey: 9jYrbplmnwzHiWnJFX6WwKaj
+  exclude: /artitalk/
+  js: https://cdn.jsdelivr.net/npm/artitalk
+  option:
+    #serverURL: https://********.api.lncldglobal.com
+    lang: zh
+    pageSize: 1
+    color1: '#49b1f5'
+    color2: '#00c4b6'
+    atEmoji: {
+      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}    
