@@ -115,15 +115,15 @@ bangumi:
 #diy by myself
 # 上面的内容一般都有，主要是下面的
 archive_generator:  # 归档页面
-  per_page: 20      # 每个分页显示文章数量，值为0表示不分页，按需填写
+  per_page: 50      # 每个分页显示文章数量，值为0表示不分页，按需填写
   yearly: true      # 是否按年生成归档
   monthly: true    # 按月归档就要
 
 tag_generator:      # 标签页面
-  per_page: 30      # 每个分页显示文章数量，值为0表示不分页，按需填写
+  per_page: 50      # 每个分页显示文章数量，值为0表示不分页，按需填写
 
 category_generator: # 分类页面
-  per_page: 30      # 每个分页显示文章数量，值为0表示不分页，按需填写   
+  per_page: 50      # 每个分页显示文章数量，值为0表示不分页，按需填写   
 
 # Ice Kano Plus_in
 # Hexo Github Canlendar
@@ -149,7 +149,7 @@ githubcalendar:
   plus_style: ""
 #hexo-magnet 插件
 magnet:
-  enable: true
+  enable: false
   priority: 3
   enable_page: /
   type: categories
@@ -272,16 +272,16 @@ baidu_url_submit:
 baidusitemap:
   path: baidusitemap.xml  
 #相关文章推荐  
-related_posts:
-  enable: true
-  title: 相关文章推荐 # Custom header, leave empty to use the default one
-  display_in_home: true
-  params:
-    maxCount: 5
-    PPMixingRate: 0.25
-    isDate: true
-    isImage: false
-    isExcerpt: false
+#related_posts:
+#  enable: false
+#  title: 相关文章推荐 # Custom header, leave empty to use the default one
+#  display_in_home: true
+#  params:
+#    maxCount: 6
+#    PPMixingRate: 0.25
+#    isDate: true
+#    isImage: false
+#    isExcerpt: false
 #减少外链    hexo-filter-nofollow  
 nofollow:
   enable: true
@@ -322,6 +322,6 @@ artitalk:
       'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
       'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}    
 #b站同款 banner样式
-bilibili_banner:
-  enable: true # 开关banner
-  style: autumn  # autumn 秋季样式 ；winter 冬季样式
+#bilibili_banner:
+#  enable: true # 开关banner
+#  style: autumn  # autumn 秋季样式 ；winter 冬季样式
