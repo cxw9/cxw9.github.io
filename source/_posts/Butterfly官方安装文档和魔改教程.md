@@ -26,6 +26,56 @@ swiper_index: 2
 swiper_desc: 
 swiper_cover: 
 ---
+# 魔改教程
+
+### 基于Butterfly主题的分类磁贴（未用）
+
+https://akilar.top/posts/a9131002/
+
+### 给博客添加B站同款动态banner（放弃版本兼容性不好）
+
+https://akilar.top/posts/780a2cea/
+
+### 基于swiper的首页置顶轮播图 hexo-butterfly-swiper
+
+https://akilar.top/posts/8e1264d1/
+
+## 乐特无源码修改 （使用）
+
+https://butterfly.lete114.top/article/Butterfly-config.html
+
+### Hexo引入阿里矢量图标库（未做）
+
+https://akilar.top/posts/d2ebecef/
+
+# hexo 插件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### 官方文档链接：
 
 https://butterfly.js.org/posts/21cfbf15/#%E5%AE%89%E8%A3%9D

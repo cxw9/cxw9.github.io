@@ -24,4 +24,5 @@ aside:
 swiper_index: 
 swiper_desc: 
 swiper_cover: 
+bilibili_banner: autumn
 ---

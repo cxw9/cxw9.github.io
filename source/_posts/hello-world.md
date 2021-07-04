@@ -1,7 +1,7 @@
 ---
 title: Hello World
 abbrlink: 16107
-swiper_index: 1
+swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 swiper_desc: 
 swiper_cover: 
 ---

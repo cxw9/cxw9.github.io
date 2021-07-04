@@ -184,17 +184,19 @@ magnet:
     index: 0
   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
   plus_style: ""
-#
+
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
 swiper:
-  enable: true
-  priority: 2
-  enable_page: /
-  layout:
+  enable: true # 开关
+  priority: 4 #过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
     type: id
     name: recent-posts
     index: 0
-  temple_html: '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container">${temple_html_item}</div></div>'
-  plus_style: ""
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
 
 butterfly_article_double_row:
   enable: true
@@ -319,3 +321,7 @@ artitalk:
     atEmoji: {
       'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
       'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}    
+#b站同款 banner样式
+bilibili_banner:
+  enable: true # 开关banner
+  style: autumn  # autumn 秋季样式 ；winter 冬季样式
