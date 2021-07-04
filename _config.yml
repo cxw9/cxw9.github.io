@@ -337,6 +337,6 @@ envelope_comment:
   height:                          # 调整信笺划出高度，默认1050px
   path:                            # 【可选】comments 的路径名称。默认为 comments ， 生成的页面为 comments/index.html
   front_matter:                    # 【可选】comments页面的 front_matter 配置
-    title: 留言板
+    title: 留言
     comments: true
     aside: true
