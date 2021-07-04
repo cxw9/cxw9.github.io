@@ -12,5 +12,4 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
-bilibili_banner: autumn
 ---

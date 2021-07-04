@@ -1,7 +1,7 @@
 ---
 title: better-sqlite3
 abbrlink: be3b9b7b
-date: 2021-07-03 19:16:14
+date: 2020-03-03 19:16:14
 updated:
 tags:
 categories:

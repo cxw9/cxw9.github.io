@@ -7,7 +7,7 @@ tags:
 categories: Java
 cover: lab/img/cover4.webp
 abbrlink: 7676
-date: 2020-11-11 20:24:35
+date: 2020-10-11 20:24:35
 updated:
 keywords:
 description:
@@ -278,10 +278,10 @@ public class CopyFolderDemo {
    ​	不是文件：
 
     		 在目的地下创建该目录
-
-     		遍历获取该目录下的所有文件的File数组，得到每一个File对象
-
-     		回到3继续(递归)
+    	
+    		遍历获取该目录下的所有文件的File数组，得到每一个File对象
+    	
+    		回到3继续(递归)
 
 #### 1.3.3代码实现
 
@@ -1050,7 +1050,7 @@ public class CopyFileDemo {
      ​	从文件中读取数据到Properties集合，用load()方法实现
 
        		文件已经存在：game.txt
-
+     	
        		里面有一个数据值：count=0
 
      ​	通过Properties集合获取到玩游戏的次数
@@ -1058,9 +1058,9 @@ public class CopyFileDemo {
      ​	判断次数是否到到3次了
 
        		如果到了，给出提示：游戏试玩已结束，想玩请充值(www.itcast.cn)
-
+     	
        		如果不到3次：
-
+     	
        			次数+1，重新写回文件，用Properties的store()方法实现玩游戏
 
 - 代码实现

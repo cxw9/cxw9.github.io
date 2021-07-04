@@ -1,9 +1,27 @@
 ---
 title: Hello World
 abbrlink: 16107
-swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
-swiper_desc: 
-swiper_cover: 
+date: 2020-03-01 19:16:14
+updated:
+tags:
+categories:
+keywords:
+description:
+top_img:
+comments:
+cover:
+toc:
+toc_number:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
 ---
 
 # 一 ：关于网站

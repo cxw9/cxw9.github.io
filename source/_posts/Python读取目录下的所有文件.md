@@ -3,7 +3,7 @@ title: Python读取目录下的所有文件
 categories: Python
 cover: lab/img/cover5.webp
 abbrlink: 44413
-date: 2020-11-22 21:04:38
+date: 2020-10-22 21:04:38
 updated:
 tags:
 keywords:
@@ -23,7 +23,11 @@ highlight_shrink:
 aside:
 ---
 
-```python
+# Python读取目录下的所有文件
+
+## 代码：
+
+```
 import os
 path = "D:/DATA" #文件夹目录
 files= os.listdir(path) #得到文件夹下的所有文件名称
@@ -38,4 +42,6 @@ for file in files: #遍历文件夹
         s.append(str) #每个文件的文本存到list中
 print(s) #打印结果
 ```
+
+]()
 

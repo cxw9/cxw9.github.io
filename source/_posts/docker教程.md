@@ -7,7 +7,7 @@ categories: Java
 keywords: docker
 cover: lab/img/cover6.webp
 abbrlink: 57016
-date: 2020-11-17 12:30:02
+date: 2020-07-17 12:30:02
 updated:
 description:
 comments:
@@ -321,5 +321,4 @@ Dockerfile可以基于镜像制作镜像；`docker build -t='jdk1.8' . `
 - 私有仓库与拉取镜像的服务器是不在同一台机器上：需要去修改docker的配置文件，指定私有仓库地址；再执行拉取镜像的命令。
 
 > 如果本地存在同名的镜像需要先删除镜像后拉取
-
 

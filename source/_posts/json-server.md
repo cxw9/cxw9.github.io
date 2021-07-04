@@ -2,7 +2,7 @@
 title: json-server
 cover: lab/img/cover2.webp
 abbrlink: 30120
-date: 2021-03-18 21:07:30
+date: 2021-01-18 21:07:30
 updated:
 tags:
 categories:
@@ -178,5 +178,4 @@ server.listen(3000, () => {
   console.log('JSON Server is running')
 })
 ```
-
 

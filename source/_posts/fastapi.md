@@ -2,7 +2,7 @@
 title: fastapi
 cover: lab/img/cover2.webp
 abbrlink: 31908
-date: 2021-03-26 07:24:25
+date: 2020-03-26 07:24:25
 updated:
 tags:
 categories:

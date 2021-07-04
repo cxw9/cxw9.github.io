@@ -3,7 +3,7 @@ title: mysql笔记
 categories: mysql
 cover: lab/img/cover1.webp
 abbrlink: 27226
-date: 2020-11-19 09:57:50
+date: 2020-12-19 09:57:50
 updated:
 tags:
 keywords:
@@ -403,8 +403,8 @@ aside:
 ​	
 ​			SELECT * FROM student LIMIT 0,3; -- 第1页
 ​			
-			SELECT * FROM student LIMIT 3,3; -- 第2页
-			
+​			SELECT * FROM student LIMIT 3,3; -- 第2页
+​			
 			SELECT * FROM student LIMIT 6,3; -- 第3页
 	
 		3. limit 是一个MySQL"方言"
@@ -601,23 +601,23 @@ aside:
 ​			设计关系数据库时，遵从不同的规范要求，设计出合理的关系型数据库，这些不同的规范要求被称为不同的范式，各种范式呈递次规范，越高的范式数据库冗余越小。
 ​			目前关系数据库有六种范式：第一范式（1NF）、第二范式（2NF）、第三范式（3NF）、巴斯-科德范式（BCNF）、第四范式(4NF）和第五范式（5NF，又称完美范式）。
 ​	
-		* 分类：
-			1. 第一范式（1NF）：每一列都是不可分割的原子数据项
-			2. 第二范式（2NF）：在1NF的基础上，非码属性必须完全依赖于码（在1NF基础上消除非主属性对主码的部分函数依赖）
-				* 几个概念：
-					1. 函数依赖：A-->B,如果通过A属性(属性组)的值，可以确定唯一B属性的值。则称B依赖于A
-						例如：学号-->姓名。  （学号，课程名称） --> 分数
-					2. 完全函数依赖：A-->B， 如果A是一个属性组，则B属性值得确定需要依赖于A属性组中所有的属性值。
-						例如：（学号，课程名称） --> 分数
-					3. 部分函数依赖：A-->B， 如果A是一个属性组，则B属性值得确定只需要依赖于A属性组中某一些值即可。
-						例如：（学号，课程名称） -- > 姓名
-					4. 传递函数依赖：A-->B, B -- >C . 如果通过A属性(属性组)的值，可以确定唯一B属性的值，在通过B属性（属性组）的值可以确定唯一C属性的值，则称 C 传递函数依赖于A
-						例如：学号-->系名，系名-->系主任
-					5. 码：如果在一张表中，一个属性或属性组，被其他所有属性所完全依赖，则称这个属性(属性组)为该表的码
-						例如：该表中码为：（学号，课程名称）
-						* 主属性：码属性组中的所有属性
-						* 非主属性：除过码属性组的属性
-						
+​		* 分类：
+​			1. 第一范式（1NF）：每一列都是不可分割的原子数据项
+​			2. 第二范式（2NF）：在1NF的基础上，非码属性必须完全依赖于码（在1NF基础上消除非主属性对主码的部分函数依赖）
+​				* 几个概念：
+​					1. 函数依赖：A-->B,如果通过A属性(属性组)的值，可以确定唯一B属性的值。则称B依赖于A
+​						例如：学号-->姓名。  （学号，课程名称） --> 分数
+​					2. 完全函数依赖：A-->B， 如果A是一个属性组，则B属性值得确定需要依赖于A属性组中所有的属性值。
+​						例如：（学号，课程名称） --> 分数
+​					3. 部分函数依赖：A-->B， 如果A是一个属性组，则B属性值得确定只需要依赖于A属性组中某一些值即可。
+​						例如：（学号，课程名称） -- > 姓名
+​					4. 传递函数依赖：A-->B, B -- >C . 如果通过A属性(属性组)的值，可以确定唯一B属性的值，在通过B属性（属性组）的值可以确定唯一C属性的值，则称 C 传递函数依赖于A
+​						例如：学号-->系名，系名-->系主任
+​					5. 码：如果在一张表中，一个属性或属性组，被其他所有属性所完全依赖，则称这个属性(属性组)为该表的码
+​						例如：该表中码为：（学号，课程名称）
+​						* 主属性：码属性组中的所有属性
+​						* 非主属性：除过码属性组的属性
+​						
 			3. 第三范式（3NF）：在2NF基础上，任何非主属性不依赖于其它非主属性（在2NF基础上消除传递依赖）
 
 
@@ -725,9 +725,9 @@ aside:
 ​				-- 1 查询最高的工资是多少 9000
 ​				SELECT MAX(salary) FROM emp;
 ​				
-				-- 2 查询员工信息，并且工资等于9000的
-				SELECT * FROM emp WHERE emp.`salary` = 9000;
-				
+​				-- 2 查询员工信息，并且工资等于9000的
+​				SELECT * FROM emp WHERE emp.`salary` = 9000;
+​				
 				-- 一条sql就完成这个操作。子查询
 				SELECT * FROM emp WHERE emp.`salary` = (SELECT MAX(salary) FROM emp);
 	
@@ -840,8 +840,8 @@ aside:
 ​				(4,20010,30000),
 ​				(5,30010,99990);
 ​				
-				-- 需求：
-				
+​				-- 需求：
+​				
 				-- 1.查询所有员工信息。查询员工编号，员工姓名，工资，职务名称，职务描述
 				/*
 					分析：
@@ -883,19 +883,19 @@ aside:
 ​				WHERE 
 ​					t1.`job_id` = t2.`id` AND t1.`dept_id` = t3.`id`;
 ​				   
-				-- 3.查询员工姓名，工资，工资等级
-				/*
-					分析：
-						1.员工姓名，工资 emp  工资等级 salarygrade
-						2.条件 emp.salary >= salarygrade.losalary and emp.salary <= salarygrade.hisalary
-							emp.salary BETWEEN salarygrade.losalary and salarygrade.hisalary
-				*/
-				SELECT 
-					t1.ename ,
-					t1.`salary`,
-					t2.*
-				FROM emp t1, salarygrade t2
-				WHERE t1.`salary` BETWEEN t2.`losalary` AND t2.`hisalary`;
+​				-- 3.查询员工姓名，工资，工资等级
+​				/*
+​					分析：
+​						1.员工姓名，工资 emp  工资等级 salarygrade
+​						2.条件 emp.salary >= salarygrade.losalary and emp.salary <= salarygrade.hisalary
+​							emp.salary BETWEEN salarygrade.losalary and salarygrade.hisalary
+​				*/
+​				SELECT 
+​					t1.ename ,
+​					t1.`salary`,
+​					t2.*
+​				FROM emp t1, salarygrade t2
+​				WHERE t1.`salary` BETWEEN t2.`losalary` AND t2.`hisalary`;
 
 
 ​				
@@ -933,17 +933,17 @@ aside:
 ​						2.使用分组查询。按照emp.dept_id完成分组，查询count(id)
 ​						3.使用子查询将第2步的查询结果和dept表进行关联查询
 ​						
-				*/
-				SELECT 
-					t1.`id`,t1.`dname`,t1.`loc` , t2.total
-				FROM 
-					dept t1,
-					(SELECT
-						dept_id,COUNT(id) total
-					FROM 
-						emp
-					GROUP BY dept_id) t2
-				WHERE t1.`id` = t2.dept_id;
+​				*/
+​				SELECT 
+​					t1.`id`,t1.`dname`,t1.`loc` , t2.total
+​				FROM 
+​					dept t1,
+​					(SELECT
+​						dept_id,COUNT(id) total
+​					FROM 
+​						emp
+​					GROUP BY dept_id) t2
+​				WHERE t1.`id` = t2.dept_id;
 
 
 ​				
@@ -957,16 +957,16 @@ aside:
 ​						3.查询左表的所有数据，和 交集数据
 ​							* 使用左外连接查询
 ​					
-				*/
-				/*
-				select
-					t1.ename,
-					t1.mgr,
-					t2.`id`,
-					t2.ename
-				from emp t1, emp t2
-				where t1.mgr = t2.`id`;
-				
+​				*/
+​				/*
+​				select
+​					t1.ename,
+​					t1.mgr,
+​					t2.`id`,
+​					t2.ename
+​				from emp t1, emp t2
+​				where t1.mgr = t2.`id`;
+​				
 				*/
 				
 				SELECT 
@@ -1008,11 +1008,11 @@ aside:
 ​			START TRANSACTION;
 ​			-- 1. 张三账户 -500
 ​			
-			UPDATE account SET balance = balance - 500 WHERE NAME = 'zhangsan';
-			-- 2. 李四账户 +500
-			-- 出错了...
-			UPDATE account SET balance = balance + 500 WHERE NAME = 'lisi';
-			
+​			UPDATE account SET balance = balance - 500 WHERE NAME = 'zhangsan';
+​			-- 2. 李四账户 +500
+​			-- 出错了...
+​			UPDATE account SET balance = balance + 500 WHERE NAME = 'lisi';
+​			
 			-- 发现执行没有问题，提交事务
 			COMMIT;
 			
@@ -1386,20 +1386,20 @@ aside:
 ​	        return DriverManager.getConnection(url, user, password);
 ​	    }
 ​	
-	    /**
-	     * 释放资源
-	     * @param stmt
-	     * @param conn
-	     */
-	    public static void close(Statement stmt,Connection conn){
-	        if( stmt != null){
-	            try {
-	                stmt.close();
-	            } catch (SQLException e) {
-	                e.printStackTrace();
-	            }
-	        }
-	
+​	    /**
+​	     * 释放资源
+​	     * @param stmt
+​	     * @param conn
+​	     */
+​	    public static void close(Statement stmt,Connection conn){
+​	        if( stmt != null){
+​	            try {
+​	                stmt.close();
+​	            } catch (SQLException e) {
+​	                e.printStackTrace();
+​	            }
+​	        }
+​	
 	        if( conn != null){
 	            try {
 	                conn.close();
@@ -1433,15 +1433,15 @@ aside:
 ​	            }
 ​	        }
 ​	
-	        if( conn != null){
-	            try {
-	                conn.close();
-	            } catch (SQLException e) {
-	                e.printStackTrace();
-	            }
-	        }
-	    }
-	
+​	        if( conn != null){
+​	            try {
+​	                conn.close();
+​	            } catch (SQLException e) {
+​	                e.printStackTrace();
+​	            }
+​	        }
+​	    }
+​	
 	}
 	
 	* 练习：
@@ -1753,10 +1753,10 @@ aside:
 ​			        }
 ​			    }
 ​			
-			    /**
-			     * 获取连接池方法
-			     */
-			
+​			    /**
+​			     * 获取连接池方法
+​			     */
+​			
 			    public static DataSource getDataSource(){
 			        return  ds;
 			    }
@@ -1829,15 +1829,15 @@ aside:
 ​				        System.out.println(count);
 ​				    }
 ​				
-				    /**
-				     * 2. 添加一条记录
-				     */
-				    @Test
-				    public void test2(){
-				        String sql = "insert into emp(id,ename,dept_id) values(?,?,?)";
-				        int count = template.update(sql, 1015, "郭靖", 10);
-				        System.out.println(count);
-				
+​				    /**
+​				     * 2. 添加一条记录
+​				     */
+​				    @Test
+​				    public void test2(){
+​				        String sql = "insert into emp(id,ename,dept_id) values(?,?,?)";
+​				        int count = template.update(sql, 1015, "郭靖", 10);
+​				        System.out.println(count);
+​				
 				    }
 				
 				    /**
@@ -1921,15 +1921,15 @@ aside:
 ​				     * 6. 查询所有记录，将其封装为Emp对象的List集合
 ​				     */
 ​				
-				    @Test
-				    public void test6_2(){
-				        String sql = "select * from emp";
-				        List<Emp> list = template.query(sql, new BeanPropertyRowMapper<Emp>(Emp.class));
-				        for (Emp emp : list) {
-				            System.out.println(emp);
-				        }
-				    }
-				
+​				    @Test
+​				    public void test6_2(){
+​				        String sql = "select * from emp";
+​				        List<Emp> list = template.query(sql, new BeanPropertyRowMapper<Emp>(Emp.class));
+​				        for (Emp emp : list) {
+​				            System.out.println(emp);
+​				        }
+​				    }
+​				
 				    /**
 				     * 7. 查询总记录数
 				     */
