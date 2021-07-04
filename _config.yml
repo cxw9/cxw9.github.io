@@ -87,8 +87,15 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type:
+ 
 deploy:
-  type:
+  - type: git
+    repository:
+      github: https://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@github.com/runrab/runrab.github.io.git
+      #coding: https://username:password@e.coding.net/owner/repo
+    branch: master  
 #RSS
 feed:
   type: atom
