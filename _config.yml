@@ -93,7 +93,7 @@ theme: butterfly
 deploy:
   - type: git
     repository:
-      github: https://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@github.com/runrab/runrab.github.io.git
+      github: https://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@github.com/runrab/runrab.github.io.git
       #coding: https://username:password@e.coding.net/owner/repo
     branch: master  
 #RSS
