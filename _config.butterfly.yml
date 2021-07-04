@@ -862,20 +862,22 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    #- <link rel="stylesheet" href="/lab/css/diy.css">    
+    - <link rel="stylesheet" href="/lab/css/diy.css">    
     #- <link rel="stylesheet" href="https://butterfly.lete114.top/css/Lete.css">
-    - <link rel="stylesheet" href="/lab/css/Lete.css">    
+    #- <link rel="stylesheet" href="/lab/css/Lete.css">    
     
   bottom:
     # - <script src="xxxx"></script>
     - <div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-autoplay="false" muted></div>
     - <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
     #- <script src="/lab/js/xkTool.js"></script>
-    #- <script data-pjax src="/lab/js/diy.js"></script>  
+    - <script data-pjax src="/lab/js/diy.js"></script>  
+    #hls首页视频
+    - <script data-pjax src="https://cdn.jsdelivr.net/npm/hls.js"></script>      
     #- <script data-pjax src="https://butterfly.lete114.top/js/Lete.js"></script>        
-    - <script data-pjax src="/lab/js/Lete.js"></script>   
+    #- <script data-pjax src="/lab/js/Lete.js"></script>   
     #统计页面
-    - <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>    
+    #- <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>    
 
 # CDN
 # Don't modify the following settings unless you know how they work

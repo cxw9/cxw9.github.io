@@ -48,6 +48,48 @@ https://butterfly.lete114.top/article/Butterfly-config.html
 
 https://akilar.top/posts/d2ebecef/
 
+### hls视频流
+
+https://butterfly.lete114.top/article/jsdelivr-video.html
+
+```
+<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+<video id="video" preload muted loop autoplay style="height: 100%;width: 100%;object-fit: cover;">
+</video>
+<script>
+  var video = document.getElementById('video');
+  var videoSrc = 'https://cdn.jsdelivr.net/gh/lete114/CDN2/video/4.m3u8';
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+      video.play();
+    });
+  }
+</script>
+```
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+<video id="video" preload muted loop autoplay style="height: 100%;width: 100%;object-fit: cover;">
+</video>
+<script>
+  var video = document.getElementById('video');
+  var videoSrc = 'https://cdn.jsdelivr.net/gh/lete114/CDN2/video/4.m3u8';
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+      video.play();
+    });
+  }
+</script>
+
+
+
 # hexo 插件
 
 
