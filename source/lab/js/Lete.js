@@ -117,7 +117,7 @@ if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsC
 $(document).ready(function(e) {
     // 自己的请自行更改
     var since = 2020;
-    var name = 'Lete乐特';
+    var name = 'RunRabbit';
     var now = new Date();
     var nowYear = now.getFullYear();
     since = since == nowYear?since:since+" - "+nowYear;
