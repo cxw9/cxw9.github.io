@@ -347,3 +347,8 @@ envelope_comment:
     title: 留言
     comments: true
     aside: false
+    
+    
+aplayer: 
+    meting: true 
+    asset_inject: false    

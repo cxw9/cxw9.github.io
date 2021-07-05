@@ -9,7 +9,6 @@ tags:
 categories:
 keywords:
 description:
-top_img:
 comments:
 toc:
 toc_number:
