@@ -9,6 +9,7 @@ description:
 top_img:
 comments:
 cover:
+top_img
 toc:
 toc_number:
 copyright:

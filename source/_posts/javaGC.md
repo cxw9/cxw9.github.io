@@ -7,9 +7,9 @@ tags:
 categories:
 keywords:
 description:
-top_img:
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg110.jpeg
 comments:
-cover:
+cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg110.jpeg
 toc:
 toc_number:
 copyright:

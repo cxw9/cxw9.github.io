@@ -2,6 +2,7 @@
 title: JAVA获取网络图片并保存到本地
 categories: Java
 cover: lab/img/cover3.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg113.jpeg
 abbrlink: 27780
 date: 2020-09-22 21:00:47
 updated:

@@ -6,6 +6,7 @@ tags:
 categories: Java
 keywords: docker
 cover: lab/img/cover6.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg104.jpeg
 abbrlink: 57016
 date: 2020-07-17 12:30:02
 updated:

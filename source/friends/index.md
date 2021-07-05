@@ -6,7 +6,7 @@ type:
 comments:
 description:
 keywords:
-top_img:
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/01/005.jpg
 mathjax:
 katex:
 aside:

@@ -2,6 +2,7 @@
 title: photos
 date: 2020-11-03 21:39:43
 type:  "galleryGroup"
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/01/007.jpg
 ---
 <div class="gallery-group-main">
 {% galleryGroup '动漫' '好看的动漫壁纸' '/photos/acg' https://p.pstatp.com/origin/1383600016e9874f193b2 %}

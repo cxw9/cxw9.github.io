@@ -2,6 +2,7 @@
 title: StringUtil字符格式判断
 categories: Java
 cover: lab/img/cover4.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg122.jpeg
 abbrlink: 1237
 date: 2020-09-19 09:08:41
 updated:

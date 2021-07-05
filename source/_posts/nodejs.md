@@ -7,6 +7,7 @@ tags:
 categories: Java
 keywords: nodejs
 cover: lab/img/cover6.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg118.jpeg
 abbrlink: 60860
 date: 2020-08-17 13:33:44
 updated:

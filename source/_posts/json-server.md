@@ -8,7 +8,7 @@ tags:
 categories:
 keywords:
 description:
-top_img:
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg115.jpeg
 comments:
 toc:
 toc_number:

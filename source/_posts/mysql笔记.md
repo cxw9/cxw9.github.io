@@ -2,6 +2,7 @@
 title: mysql笔记
 categories: mysql
 cover: lab/img/cover1.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg117.jpeg
 abbrlink: 27226
 date: 2020-12-19 09:57:50
 updated:
@@ -405,8 +406,8 @@ aside:
 ​			
 ​			SELECT * FROM student LIMIT 3,3; -- 第2页
 ​			
-			SELECT * FROM student LIMIT 6,3; -- 第3页
-	
+​			SELECT * FROM student LIMIT 6,3; -- 第3页
+​	
 		3. limit 是一个MySQL"方言"
 
 
@@ -618,7 +619,7 @@ aside:
 ​						* 主属性：码属性组中的所有属性
 ​						* 非主属性：除过码属性组的属性
 ​						
-			3. 第三范式（3NF）：在2NF基础上，任何非主属性不依赖于其它非主属性（在2NF基础上消除传递依赖）
+​			3. 第三范式（3NF）：在2NF基础上，任何非主属性不依赖于其它非主属性（在2NF基础上消除传递依赖）
 
 
 ## 数据库的备份和还原
@@ -728,9 +729,9 @@ aside:
 ​				-- 2 查询员工信息，并且工资等于9000的
 ​				SELECT * FROM emp WHERE emp.`salary` = 9000;
 ​				
-				-- 一条sql就完成这个操作。子查询
-				SELECT * FROM emp WHERE emp.`salary` = (SELECT MAX(salary) FROM emp);
-	
+​				-- 一条sql就完成这个操作。子查询
+​				SELECT * FROM emp WHERE emp.`salary` = (SELECT MAX(salary) FROM emp);
+​	
 			* 子查询不同情况
 				1. 子查询的结果是单行单列的：
 					* 子查询可以作为条件，使用运算符去判断。 运算符： > >= < <= =
@@ -842,12 +843,12 @@ aside:
 ​				
 ​				-- 需求：
 ​				
-				-- 1.查询所有员工信息。查询员工编号，员工姓名，工资，职务名称，职务描述
-				/*
-					分析：
-						1.员工编号，员工姓名，工资，需要查询emp表  职务名称，职务描述 需要查询job表
-						2.查询条件 emp.job_id = job.id
-				
+​				-- 1.查询所有员工信息。查询员工编号，员工姓名，工资，职务名称，职务描述
+​				/*
+​					分析：
+​						1.员工编号，员工姓名，工资，需要查询emp表  职务名称，职务描述 需要查询job表
+​						2.查询条件 emp.job_id = job.id
+​				
 				*/
 				SELECT 
 					t1.`id`, -- 员工编号
@@ -967,8 +968,8 @@ aside:
 ​				from emp t1, emp t2
 ​				where t1.mgr = t2.`id`;
 ​				
-				*/
-				
+​				*/
+​				
 				SELECT 
 					t1.ename,
 					t1.mgr,
@@ -1013,9 +1014,9 @@ aside:
 ​			-- 出错了...
 ​			UPDATE account SET balance = balance + 500 WHERE NAME = 'lisi';
 ​			
-			-- 发现执行没有问题，提交事务
-			COMMIT;
-			
+​			-- 发现执行没有问题，提交事务
+​			COMMIT;
+​			
 			-- 发现出问题了，回滚事务
 			ROLLBACK;
 		4. MySQL数据库中事务默认自动提交
@@ -1400,14 +1401,14 @@ aside:
 ​	            }
 ​	        }
 ​	
-	        if( conn != null){
-	            try {
-	                conn.close();
-	            } catch (SQLException e) {
-	                e.printStackTrace();
-	            }
-	        }
-	    }
+​	        if( conn != null){
+​	            try {
+​	                conn.close();
+​	            } catch (SQLException e) {
+​	                e.printStackTrace();
+​	            }
+​	        }
+​	    }
 
 
 ​	
@@ -1442,8 +1443,8 @@ aside:
 ​	        }
 ​	    }
 ​	
-	}
-	
+​	}
+​	
 	* 练习：
 		* 需求：
 			1. 通过键盘录入用户名和密码
@@ -1757,10 +1758,10 @@ aside:
 ​			     * 获取连接池方法
 ​			     */
 ​			
-			    public static DataSource getDataSource(){
-			        return  ds;
-			    }
-			
+​			    public static DataSource getDataSource(){
+​			        return  ds;
+​			    }
+​			
 			}
 
 ## Spring JDBC
@@ -1838,8 +1839,8 @@ aside:
 ​				        int count = template.update(sql, 1015, "郭靖", 10);
 ​				        System.out.println(count);
 ​				
-				    }
-				
+​				    }
+​				
 				    /**
 				     * 3.删除刚才添加的记录
 				     */
@@ -1930,10 +1931,10 @@ aside:
 ​				        }
 ​				    }
 ​				
-				    /**
-				     * 7. 查询总记录数
-				     */
-				
+​				    /**
+​				     * 7. 查询总记录数
+​				     */
+​				
 				    @Test
 				    public void test7(){
 				        String sql = "select count(id) from emp";

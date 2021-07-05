@@ -4,6 +4,7 @@ tags:
   - hexo
 categories: 教程
 cover: lab/img/cover2.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg100.jpeg
 abbrlink: 29818
 date: 2020-04-18 17:45:24
 updated:

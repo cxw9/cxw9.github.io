@@ -1,6 +1,7 @@
 ---
 title: onePointApi文档
 cover: lab/img/cover6.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg119.jpeg
 abbrlink: 16040
 date: 2021-02-26 07:26:04
 updated:

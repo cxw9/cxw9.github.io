@@ -2,6 +2,7 @@
 title: Python读取目录下的所有文件
 categories: Python
 cover: lab/img/cover5.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg121.jpeg
 abbrlink: 44413
 date: 2020-10-22 21:04:38
 updated:

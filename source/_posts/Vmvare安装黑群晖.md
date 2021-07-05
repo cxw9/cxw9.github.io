@@ -5,6 +5,7 @@ tags:
   - Vmvare
 categories: 教程
 cover: lab/img/cover3.webp
+top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg123.jpeg
 abbrlink: 64259
 date: 2020-11-17 21:58:51
 updated:
