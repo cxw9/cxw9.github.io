@@ -109,6 +109,10 @@ vercel代理 https://img-plus.vercel.app/003.35h6t10ff980.jpg
 
 https://v.mikuo.top/bliplayer/
 
+demo: 视频来自抖音 @四宫辉夜
+
+{% dplayer "url=https://pan.runrab.com/e5/video/douyin/%E7%A2%A7%E8%93%9D%E6%A1%A3%E6%A1%88.mp4" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %} 
+
 demo: [demo](https://v.mikuo.top/bliplayer/?url=https%3A%2F%2Fpan.runrab.com%2Fvideo%2F%25E5%25A4%25A9%25E6%25B0%2594%25E4%25B9%258B%25E5%25AD%2590.mp4)
 
 ### 6壁纸
