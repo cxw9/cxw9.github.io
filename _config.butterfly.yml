@@ -433,7 +433,7 @@ baidu_analytics: 8d994c7d58cb1203e900757e498e6fc1
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-FT6LRY94RK
 
 # Tencent Analytics ID
 # https://mta.qq.com
@@ -445,7 +445,7 @@ cnzz_analytics:
 
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
-cloudflare_analytics:
+cloudflare_analytics: 4cec974321d04592bac12a9b8508bb27
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
@@ -732,7 +732,7 @@ change_font_size: false
 translate:
   enable: false
   # The text of a button
-  default: 繁
+  default: 簡
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -754,7 +754,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: true
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------

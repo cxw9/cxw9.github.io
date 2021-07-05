@@ -5,10 +5,10 @@
 # Site
 title: 兔子快跑
 subtitle:
-description:
-keywords: 
+description: 博客 兔子快跑 
+keywords: 兔子快跑 兔子怎么会停 兔子不要停下
 author: RunRabbit
-language: zh_CN
+language: zh-CN 
 timezone:
 
 # URL
@@ -122,15 +122,15 @@ bangumi:
 #diy by myself
 # 上面的内容一般都有，主要是下面的
 archive_generator:  # 归档页面
-  per_page: 50      # 每个分页显示文章数量，值为0表示不分页，按需填写
+  per_page: 30      # 每个分页显示文章数量，值为0表示不分页，按需填写
   yearly: true      # 是否按年生成归档
   monthly: true    # 按月归档就要
 
 tag_generator:      # 标签页面
-  per_page: 50      # 每个分页显示文章数量，值为0表示不分页，按需填写
+  per_page: 30      # 每个分页显示文章数量，值为0表示不分页，按需填写
 
 category_generator: # 分类页面
-  per_page: 50      # 每个分页显示文章数量，值为0表示不分页，按需填写   
+  per_page: 00      # 每个分页显示文章数量，值为0表示不分页，按需填写   
 
 # Ice Kano Plus_in
 # Hexo Github Canlendar
