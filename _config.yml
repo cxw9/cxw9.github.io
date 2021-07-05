@@ -95,12 +95,13 @@ deploy:
     repository:
       github: https://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@github.com/runrab/runrab.github.io.git
       #coding: https://username:password@e.coding.net/owner/repo
-    branch: master  
+    branch: master 
+  - type: baidu_url_submitter     
 #RSS
 feed:
   type: atom
   path: atom.xml
-  limit: 20
+  limit: 40
   hub:
   content:
   content_limit: 140
@@ -271,9 +272,9 @@ encrypt:
     enable: true
 # 百度主动推送
 baidu_url_submit:
-  count: 20 ## 提交最新的1个链接
+  count: 100 ## 提交最新的1个链接
   host: www.runrab.com ## 百度站长平台中注册的域名
-  token: UXvHSTrz0lKJwHtJ ## 准入秘钥
+  token: 'UXvHSTrz0lKJwHtJ' ## 准入秘钥
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 # 百度站点地图
 baidusitemap:
