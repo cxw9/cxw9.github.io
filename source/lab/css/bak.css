@@ -3,7 +3,6 @@
     display: none;
     background-color: transparent !important;
 }
-
 #go-up {
     background-color: transparent !important;
 }
@@ -14,11 +13,6 @@
 /*新版3.0.0以上添加up酱置顶ico图标上移问题*/
 .fas.fa-arrow-up {
     line-height: 2;
-}
-/* 目录隐藏按钮颜色 */
-
-#toggle-sidebar {
-    color: #e58a8a !important;
 }
 /* 目录隐藏按钮颜色 */
 
@@ -85,15 +79,78 @@
     background: rgba(255, 255, 255, 0.0);
     padding: 0px;
 }
-/* 页脚透明 */
+/* 评论框  */
 
-#footer {
-    background: transparent !important;
+.vwrap {
+    box-shadow: 2px 2px 5px #bbb;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+
+/* 提交按钮 */
+
+#vcomment button {
+    padding: 0.3rem 0.8rem;
+    border-color: #fff;
+    background-color: #e58a8a;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+/* 评论区代码块 */
+
+.v[data-class=v] code {
+    color: #c7254e;
+    background-color: #F9F2F4;
+}
+/* 设置评论框 */
+
+.vcard {
+    box-shadow: 2px 2px 5px #bbb;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* 取消回复聊天框 */
+
+.vquote .vcard {
+    box-shadow: 2px 2px 5px transparent;
+    background: rgba(255, 255, 255, 0.0);
+    padding: 0px;
 }
 /* 页脚透明 */
 
 #footer {
     background: transparent !important;
+}
+/* a标签默认颜色 */
+
+#article-container a {
+    color: #00c4b6;
+    text-decoration: none;
+}
+
+/* 鼠标悬停时的颜色 */
+
+#article-container a:hover {
+    color: #e58a8a;
+    text-decoration: none;
+}
+/*a标签颜色*/
+a {
+    color: #00c4b6;
 }
 /* 首页中间打字效果上方 */
 #page-header #site_title {
@@ -123,21 +180,21 @@
 /* 鼠标图标 */
 
 body {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
 /*a标签*/
 
 a:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
 /*按钮*/
 
 button:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 #rightside>div>button,
@@ -149,7 +206,7 @@ button:hover {
     color: var(--btn-color);
     text-align: center;
     font-size: 16px;
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
@@ -174,32 +231,32 @@ button:hover {
 }
 
 .v[data-class=v] .vicon {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 .v[data-class=v] .vbtn {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
 /* 回复 */
 
 .vat {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
 /*i标签*/
 
 i:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
 /*up酱*/
 
 #upj:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
@@ -207,14 +264,14 @@ i:hover {
 
 #footer-wrap a:hover {
     text-decoration: none;
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 
 
 /*分页器*/
 
 #pagination .page-number:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), auto;
 }
 /* 分页器的三个点(...) */
 .space {
