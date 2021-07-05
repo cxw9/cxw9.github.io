@@ -139,7 +139,7 @@ category_generator: # 分类页面
 # butterfly
 githubcalendar:
   enable: true
-  priority: 1
+  priority: 2
   enable_page: /
   user: runrab
   layout:
@@ -157,7 +157,7 @@ githubcalendar:
 #hexo-magnet 插件
 magnet:
   enable: false
-  priority: 3
+  priority: 4
   enable_page: /
   type: categories
   devide: 2
@@ -196,7 +196,7 @@ magnet:
 # see https://akilar.top/posts/8e1264d1/
 swiper:
   enable: true # 开关
-  priority: 4 #过滤器优先权
+  priority: 3 #过滤器优先权
   enable_page: all # 应用页面
   timemode: date #date/updated
   layout: # 挂载容器类型

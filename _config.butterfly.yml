@@ -105,10 +105,10 @@ disable_top_img: false
 index_img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg134.jpeg
 
 # The banner image of archive page
-archive_img:
+archive_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg137.jpeg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -862,19 +862,19 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    #- <link rel="stylesheet" href="/lab/css/diy.css">    
+    - <link rel="stylesheet" href="/lab/css/diy.css">    
     #- <link rel="stylesheet" href="https://butterfly.lete114.top/css/Lete.css">
-    - <link rel="stylesheet" href="/lab/css/Lete.css">    
+    #- <link rel="stylesheet" href="/lab/css/Lete.css">    
     
   bottom:
     # - <script src="xxxx"></script>
     - <div class="aplayer no-destroy" data-id="4906943495" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-lrcType="3" data-autoplay="false" muted></div>
     - <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     #- <script src="/lab/js/xkTool.js"></script>
-    #- <script data-pjax src="/lab/js/diy.js"></script>  
+    - <script data-pjax src="/lab/js/diy.js"></script>  
     #hls首页视频
     - <script data-pjax src="https://cdn.jsdelivr.net/npm/hls.js">
-    - <script data-pjax src="/lab/js/Lete.js"></script>        
+    #- <script data-pjax src="/lab/js/Lete.js"></script>        
     #- <script data-pjax src="/lab/js/diy.js"></script>   
     #统计页面
     #- <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>    
