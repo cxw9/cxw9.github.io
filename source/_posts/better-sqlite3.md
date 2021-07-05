@@ -1,15 +1,15 @@
 ---
 title: better-sqlite3
+tags: nodejs
+categories: nodejs
+keywords: nodejs better-sqlite3
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg1.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg1.jpeg'
 abbrlink: be3b9b7b
 date: 2020-03-03 19:16:14
 updated:
-tags:
-categories:
-keywords:
 description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg1.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg1.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,7 +22,14 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
+
+
+
+
 
 # better-sqlite3
 

@@ -1,16 +1,14 @@
 ---
 title: docker教程
-tags:
-  - docker
-  - 笔记
+tags: Java
 categories: Java
 keywords: docker
-cover: lab/img/cover6.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg104.jpeg
-abbrlink: 57016
+description: docker教程
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg104.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg104.jpeg'
+abbrlink: 3d1d688c
 date: 2020-07-17 12:30:02
 updated:
-description:
 comments:
 toc:
 toc_number:
@@ -24,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 ## 1. Docker概述
 

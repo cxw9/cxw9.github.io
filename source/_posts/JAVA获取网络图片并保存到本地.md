@@ -1,14 +1,14 @@
 ---
 title: JAVA获取网络图片并保存到本地
+tags: Java
 categories: Java
-cover: lab/img/cover3.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg113.jpeg
-abbrlink: 27780
+keywords: JAVA获取网络图片并保存到本地
+description: JAVA获取网络图片并保存到本地
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg113.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg113.jpeg'
+abbrlink: cdcb5006
 date: 2020-09-22 21:00:47
 updated:
-tags:
-keywords: JAVA获取网络图片并保存到本地
-description:
 comments:
 toc:
 toc_number:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 # JAVA获取网络图片并保存到本地

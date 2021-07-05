@@ -1,16 +1,14 @@
 ---
 title: Vmvare安装黑群晖
-tags:
-  - 黑群晖
-  - Vmvare
+tags: 群晖
 categories: 教程
-cover: lab/img/cover3.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg123.jpeg
-abbrlink: 64259
+keywords: Vmvare 黑群晖
+description: Vmvare安装黑群晖
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg123.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg123.jpeg'
+abbrlink: 129c0639
 date: 2020-11-17 21:58:51
 updated:
-keywords:
-description:
 comments:
 toc:
 toc_number:
@@ -24,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 原文来自日新博客 链接：https://www.rixin.info/a/4655.html
 现在电脑换代是一件很平常的事情，最近家里的老电脑太卡了，自己花钱在京东买了配件自己组装了一台新电脑，旧电脑又舍不得丢掉。我以前买过蜗牛星际主机安装了黑群晖，那么能不能使用那台旧电脑安装群晖NAS服务器呢？

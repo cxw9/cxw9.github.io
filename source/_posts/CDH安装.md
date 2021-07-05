@@ -1,14 +1,11 @@
 ---
 title: CDH安装
-tags:
-  - CDH
-  - 安装脚本
+tags: 安装脚本
 categories: 大数据
 keywords: CDH安装脚本
 cover: lab/img/cover1.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg101.jpeg
-abbrlink: 8708
-date: 2020-03-11 15:20:03
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg101.jpeg'
+abbrlink: 7de3978f
 updated:
 description:
 comments:
@@ -24,6 +21,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 # CDH安装脚本
 - [脚本来源](https://gitee.com/hcsystem/cdh_install)

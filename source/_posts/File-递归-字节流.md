@@ -1,18 +1,14 @@
 ---
 title: File-递归-字节流
-tags:
-  - java
-  - file
-  - 递归
-  - 字节流
+tags: Java
 categories: Java
-cover: lab/img/cover5.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg107.jpeg
-abbrlink: 14974
-date: 2020-9-11 20:10:33
+keywords: File-递归-字节流
+description: File-递归-字节流
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg107.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg107.jpeg'
+abbrlink: 333c0bbf
+date: 2020-09-11 20:10:33
 updated:
-keywords:
-description:
 comments:
 toc:
 toc_number:
@@ -26,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 ## 1.File类
 

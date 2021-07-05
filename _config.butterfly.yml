@@ -869,13 +869,13 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
     - <div class="aplayer no-destroy" data-id="4906943495" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="none" data-lrcType="3" data-autoplay="false" muted></div>
-    #- <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     #- <script src="/lab/js/xkTool.js"></script>
     #- <script data-pjax src="/lab/js/diy.js"></script>  
     #hls首页视频
     - <script data-pjax src="https://cdn.jsdelivr.net/npm/hls.js">
-    - <script data-pjax src="https://butterfly.lete114.top/js/Lete.js"></script>        
-    #- <script data-pjax src="/lab/js/Lete.js"></script>   
+    - <script data-pjax src="/lab/js/Lete.js"></script>        
+    #- <script data-pjax src="/lab/js/diy.js"></script>   
     #统计页面
     #- <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>    
 

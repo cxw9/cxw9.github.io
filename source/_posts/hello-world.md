@@ -1,15 +1,17 @@
 ---
 title: Hello World
-abbrlink: 16107
+tags: me
+categories: me
+keywords: Hello World
+description: 关于网站
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg129.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg129.jpeg'
+swiper_index: 1
+swiper_desc: Hello World
+abbrlink: 4a17b156
 date: 2020-03-01 19:16:14
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg129.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg129.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,6 +24,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_cover:
 ---
 
 # 一 ：关于网站

@@ -1,15 +1,15 @@
 ---
 title: Butterfly官方安装文档和魔改教程
-tags:
-  - hexo
+tags: hexo
 categories: 教程
+keywords: Butterfly官方安装文档和魔改教程
+description: Butterfly官方安装文档和魔改教程
 cover: lab/img/cover2.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg100.jpeg
-abbrlink: 29818
-date: 2020-04-18 17:45:24
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg100.jpeg'
+swiper_index: 2
+swiper_desc: Butterfly官方安装文档和魔改教程
+abbrlink: b45332b4
 updated:
-keywords:
-description:
 comments:
 toc:
 toc_number:
@@ -23,9 +23,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 2
-swiper_desc: 
-swiper_cover: 
+swiper_cover:
 ---
 # 魔改教程
 

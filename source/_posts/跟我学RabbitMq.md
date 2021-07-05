@@ -1,15 +1,15 @@
 ---
 title: 跟我学RabbitMq
+tags: RabbitMq
+categories: 跟我学
+keywords: 跟我学 RabbitMq
+description: 跟我学RabbitMq
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg125.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg125.jpeg'
 abbrlink: 64ed8929
 date: 2021-04-20 19:17:50
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg125.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg125.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 ## 1. 消息队列概述

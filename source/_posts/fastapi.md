@@ -1,14 +1,14 @@
 ---
-title: fastapi
-cover: lab/img/cover2.webp
-abbrlink: 31908
+title: FastApi快速做api接口
+tags: Python
+categories: Python
+keywords: fastApi api接口
+description: FastApi快速做api接口
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg106.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg106.jpeg'
+abbrlink: '24208287'
 date: 2020-03-26 07:24:25
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg106.jpeg
 comments:
 toc:
 toc_number:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 # python FastApi 快速做api接口
 

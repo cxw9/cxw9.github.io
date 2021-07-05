@@ -1,17 +1,15 @@
 ---
-title: nodejs
-tags:
-  - nodejs
-  - 笔记
-  - es6
-categories: Java
-keywords: nodejs
-cover: lab/img/cover6.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg118.jpeg
-abbrlink: 60860
+title: nodejs笔记
+tags: nodejs
+categories: nodejs
+keywords: nodejs笔记
+description: nodejs笔记
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg118.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg118.jpeg'
+abbrlink: fb69810e
 date: 2020-08-17 13:33:44
 updated:
-description:
+comments:
 toc:
 toc_number:
 copyright:
@@ -24,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 ## 1. Nodejs概述

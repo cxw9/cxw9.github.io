@@ -1,14 +1,14 @@
 ---
-title: json-server
-cover: lab/img/cover2.webp
-abbrlink: 30120
+title: json-server入门
+tags: nodejs
+categories: nodejs
+keywords: json-server
+description: json-server入门
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg115.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg115.jpeg'
+abbrlink: 3e8060c8
 date: 2021-01-18 21:07:30
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg115.jpeg
 comments:
 toc:
 toc_number:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 ## json-server
 

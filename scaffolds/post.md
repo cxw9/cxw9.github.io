@@ -5,11 +5,10 @@ updated:
 tags:
 categories:
 keywords:
-description:
-top_img:
+description: 
 comments:
 cover:
-top_img
+top_img:
 toc:
 toc_number:
 copyright:

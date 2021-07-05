@@ -1,15 +1,15 @@
 ---
 title: pixiv代理
+tags: pixiv
+categories: pixiv
+keywords: pixiv
+description: pixiv代理
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg12.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg12.jpeg'
 abbrlink: df1b4fb9
 date: 2021-04-21 19:17:25
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg12.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg12.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,9 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 6
-swiper_desc: 
-swiper_cover: 
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 # pixiv代理

@@ -1,14 +1,14 @@
 ---
 title: mysql笔记
+tags: mysql
 categories: mysql
-cover: lab/img/cover1.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg117.jpeg
-abbrlink: 27226
+keywords: mysql
+description: mysql笔记
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg117.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg117.jpeg'
+abbrlink: cff900a3
 date: 2020-12-19 09:57:50
 updated:
-tags:
-keywords:
-description:
 comments:
 toc:
 toc_number:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 # 今日内容
 
@@ -408,7 +411,7 @@ aside:
 ​			
 ​			SELECT * FROM student LIMIT 6,3; -- 第3页
 ​	
-		3. limit 是一个MySQL"方言"
+​		3. limit 是一个MySQL"方言"
 
 
 ## 约束
@@ -732,20 +735,20 @@ aside:
 ​				-- 一条sql就完成这个操作。子查询
 ​				SELECT * FROM emp WHERE emp.`salary` = (SELECT MAX(salary) FROM emp);
 ​	
-			* 子查询不同情况
-				1. 子查询的结果是单行单列的：
-					* 子查询可以作为条件，使用运算符去判断。 运算符： > >= < <= =
-					* 
-					-- 查询员工工资小于平均工资的人
-					SELECT * FROM emp WHERE emp.salary < (SELECT AVG(salary) FROM emp);
-				2. 子查询的结果是多行单列的：
-					* 子查询可以作为条件，使用运算符in来判断
-					-- 查询'财务部'和'市场部'所有的员工信息
-					SELECT id FROM dept WHERE NAME = '财务部' OR NAME = '市场部';
-					SELECT * FROM emp WHERE dept_id = 3 OR dept_id = 2;
-					-- 子查询
-					SELECT * FROM emp WHERE dept_id IN (SELECT id FROM dept WHERE NAME = '财务部' OR NAME = '市场部');
-	
+​			* 子查询不同情况
+​				1. 子查询的结果是单行单列的：
+​					* 子查询可以作为条件，使用运算符去判断。 运算符： > >= < <= =
+​					* 
+​					-- 查询员工工资小于平均工资的人
+​					SELECT * FROM emp WHERE emp.salary < (SELECT AVG(salary) FROM emp);
+​				2. 子查询的结果是多行单列的：
+​					* 子查询可以作为条件，使用运算符in来判断
+​					-- 查询'财务部'和'市场部'所有的员工信息
+​					SELECT id FROM dept WHERE NAME = '财务部' OR NAME = '市场部';
+​					SELECT * FROM emp WHERE dept_id = 3 OR dept_id = 2;
+​					-- 子查询
+​					SELECT * FROM emp WHERE dept_id IN (SELECT id FROM dept WHERE NAME = '财务部' OR NAME = '市场部');
+​	
 				3. 子查询的结果是多行多列的：
 					* 子查询可以作为一张虚拟表参与查询
 					-- 查询员工入职日期是2011-11-11日之后的员工信息和部门信息
@@ -849,17 +852,17 @@ aside:
 ​						1.员工编号，员工姓名，工资，需要查询emp表  职务名称，职务描述 需要查询job表
 ​						2.查询条件 emp.job_id = job.id
 ​				
-				*/
-				SELECT 
-					t1.`id`, -- 员工编号
-					t1.`ename`, -- 员工姓名
-					t1.`salary`,-- 工资
-					t2.`jname`, -- 职务名称
-					t2.`description` -- 职务描述
-				FROM 
-					emp t1, job t2
-				WHERE 
-					t1.`job_id` = t2.`id`;
+​				*/
+​				SELECT 
+​					t1.`id`, -- 员工编号
+​					t1.`ename`, -- 员工姓名
+​					t1.`salary`,-- 工资
+​					t2.`jname`, -- 职务名称
+​					t2.`description` -- 职务描述
+​				FROM 
+​					emp t1, job t2
+​				WHERE 
+​					t1.`job_id` = t2.`id`;
 
 
 ​				
@@ -970,14 +973,14 @@ aside:
 ​				
 ​				*/
 ​				
-				SELECT 
-					t1.ename,
-					t1.mgr,
-					t2.`id`,
-					t2.`ename`
-				FROM emp t1
-				LEFT JOIN emp t2
-				ON t1.`mgr` = t2.`id`;
+​				SELECT 
+​					t1.ename,
+​					t1.mgr,
+​					t2.`id`,
+​					t2.`ename`
+​				FROM emp t1
+​				LEFT JOIN emp t2
+​				ON t1.`mgr` = t2.`id`;
 
 
 ## 事务
@@ -1017,10 +1020,10 @@ aside:
 ​			-- 发现执行没有问题，提交事务
 ​			COMMIT;
 ​			
-			-- 发现出问题了，回滚事务
-			ROLLBACK;
-		4. MySQL数据库中事务默认自动提交
-			
+​			-- 发现出问题了，回滚事务
+​			ROLLBACK;
+​		4. MySQL数据库中事务默认自动提交
+​			
 			* 事务提交的两种方式：
 				* 自动提交：
 					* mysql就是自动提交的
@@ -1445,13 +1448,13 @@ aside:
 ​	
 ​	}
 ​	
-	* 练习：
-		* 需求：
-			1. 通过键盘录入用户名和密码
-			2. 判断用户是否登录成功
-				* select * from user where username = "" and password = "";
-				* 如果这个sql有查询结果，则成功，反之，则失败
-	
+​	* 练习：
+​		* 需求：
+​			1. 通过键盘录入用户名和密码
+​			2. 判断用户是否登录成功
+​				* select * from user where username = "" and password = "";
+​				* 如果这个sql有查询结果，则成功，反之，则失败
+​	
 		* 步骤：
 			1. 创建数据库表 user
 				CREATE TABLE USER(
@@ -1762,7 +1765,7 @@ aside:
 ​			        return  ds;
 ​			    }
 ​			
-			}
+​			}
 
 ## Spring JDBC
 	* Spring框架对JDBC的简单封装。提供了一个JDBCTemplate对象简化JDBC的开发
@@ -1841,16 +1844,16 @@ aside:
 ​				
 ​				    }
 ​				
-				    /**
-				     * 3.删除刚才添加的记录
-				     */
-				    @Test
-				    public void test3(){
-				        String sql = "delete from emp where id = ?";
-				        int count = template.update(sql, 1015);
-				        System.out.println(count);
-				    }
-				
+​				    /**
+​				     * 3.删除刚才添加的记录
+​				     */
+​				    @Test
+​				    public void test3(){
+​				        String sql = "delete from emp where id = ?";
+​				        int count = template.update(sql, 1015);
+​				        System.out.println(count);
+​				    }
+​				
 				    /**
 				     * 4.查询id为1001的记录，将其封装为Map集合
 				     * 注意：这个方法查询的结果集长度只能是1
@@ -1935,13 +1938,13 @@ aside:
 ​				     * 7. 查询总记录数
 ​				     */
 ​				
-				    @Test
-				    public void test7(){
-				        String sql = "select count(id) from emp";
-				        Long total = template.queryForObject(sql, Long.class);
-				        System.out.println(total);
-				    }
-				
+​				    @Test
+​				    public void test7(){
+​				        String sql = "select count(id) from emp";
+​				        Long total = template.queryForObject(sql, Long.class);
+​				        System.out.println(total);
+​				    }
+​				
 				}
 
 

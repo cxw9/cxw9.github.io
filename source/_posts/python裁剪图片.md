@@ -1,15 +1,17 @@
 ---
 title: python裁剪图片
+tags: Python
+categories: Python
+keywords: python 裁剪图片
+description: python裁剪图片
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg120.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg120.jpeg'
+swiper_index: 3
+swiper_desc: python裁剪图片
 abbrlink: dbc0c148
 date: 2021-07-04 22:15:22
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg120.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg120.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,8 +24,6 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index:
-swiper_desc:
 swiper_cover:
 ---
 

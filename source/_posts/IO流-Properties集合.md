@@ -1,17 +1,14 @@
 ---
 title: IO流-Properties集合
-tags:
-  - Java
-  - Io流
-  - 集合
-categories: Java
-cover: lab/img/cover4.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg11.jpeg
-abbrlink: 7676
+tags: Java
+categories: Java Io流 集合
+keywords: Java
+description: IO流-Properties集合
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg11.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg11.jpeg'
+abbrlink: 609ba213
 date: 2020-10-11 20:24:35
 updated:
-keywords:
-description:
 comments:
 toc:
 toc_number:
@@ -25,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 ## 1.IO流案例
 

@@ -1,15 +1,15 @@
 ---
 title: java常见小问题总结
+tags: Java
+categories: Java
+keywords: java常见小问题总结
+description: java常见小问题总结
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg112.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg112.jpeg'
 abbrlink: e2e7f88
 date: 2020-04-17 19:17:09
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg112.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg112.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 # 总结

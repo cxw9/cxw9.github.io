@@ -1,15 +1,15 @@
 ---
 title: hexo报错总结
+date: '2020-010-03 19:48:11'
+tags: hexo
+categories: hexo
+keywords: hexo报错总结
+description: hexo报错总结
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg130.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg130.jpeg'
 abbrlink: 646f4601
-date: 2020-010-03 19:48:11
 updated:
-tags:
-categories:
-keywords:
-description:
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg130.jpeg
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg130.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 ## 1hexo版本更新报错：INFO Validating config WARN Deprecated config detected: “external_link“ with a Boolean

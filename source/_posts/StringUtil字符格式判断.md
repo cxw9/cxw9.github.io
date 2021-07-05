@@ -1,14 +1,14 @@
 ---
 title: StringUtil字符格式判断
+tags: Java
 categories: Java
-cover: lab/img/cover4.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg122.jpeg
-abbrlink: 1237
+keywords: StringUtil字符格式判断
+description: StringUtil字符格式判断
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg122.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg122.jpeg'
+abbrlink: 60cf224d
 date: 2020-09-19 09:08:41
 updated:
-tags:
-keywords:
-description:
 comments:
 toc:
 toc_number:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 ## StringUtil 字符格式判断

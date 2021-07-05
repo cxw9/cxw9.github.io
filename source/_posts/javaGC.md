@@ -1,15 +1,15 @@
 ---
 title: javaGC
+date: '2020-011-13 19:16:46'
+tags: Jvm
+categories: Java
+keywords: javaGC Jvm Java
+description: Java垃圾回收
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg110.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg110.jpeg'
 abbrlink: eb5344dd
-date: 2020-011-13 19:16:46
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg110.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg110.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 # JavaGC

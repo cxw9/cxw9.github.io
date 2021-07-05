@@ -1,15 +1,15 @@
 ---
 title: cloudfare解决没有ipv4或ipv6
+tags: 教程
+categories: 教程
+keywords: cloudfare ipv4 ipv6
+description: cloudfare解决没有ipv4或ipv6
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg102.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg102.jpeg'
 abbrlink: ba3f934f
 date: 2021-04-03 19:16:28
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg102.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg102.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,7 +22,12 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
+
+
 
 cloudfare简介:
 

@@ -1,14 +1,14 @@
 ---
 title: Python读取目录下的所有文件
+tags: Python
 categories: Python
-cover: lab/img/cover5.webp
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg121.jpeg
-abbrlink: 44413
+keywords: Python 读取目录下的所有文件
+description: Python读取目录下的所有文件
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg121.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg121.jpeg'
+abbrlink: a7831c90
 date: 2020-10-22 21:04:38
 updated:
-tags:
-keywords:
-description:
 comments:
 toc:
 toc_number:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 # Python读取目录下的所有文件

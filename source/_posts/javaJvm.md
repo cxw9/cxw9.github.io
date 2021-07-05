@@ -1,15 +1,15 @@
 ---
-title: javaJvm
-abbrlink: b3615ea0
+title: java虚拟机
+tags: Jvm
+categories: Java
+keywords: Jvm java虚拟机
+description: java虚拟机
+cover: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg111.jpeg'
+top_img: 'https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg111.jpeg'
+abbrlink: e2233340
 date: 2020-05-13 19:16:58
 updated:
-tags:
-categories:
-keywords:
-description:
-top_img: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/mid/acg/acg111.jpeg
 comments:
-cover: https://cdn.jsdelivr.net/gh/runrab/cdn2@master/img/min/acg/acg111.jpeg
 toc:
 toc_number:
 copyright:
@@ -22,6 +22,9 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index:
+swiper_desc:
+swiper_cover:
 ---
 
 1、java中会存在内存泄漏吗，请简单描述。
