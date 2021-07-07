@@ -242,7 +242,7 @@ css_minifier:
   enable: true
   exclude:
     - '*.min.css'
-    - '*.css'
+    #- '*.css'
     
 # js压缩
 js_minifier:
@@ -251,7 +251,7 @@ js_minifier:
   compress:
   exclude:
     - '*.min.js'
-    - '*.js'
+    #- '*.js'
 js_concator:
   enable: false
   bundle_path: '/js/bundle.js'
