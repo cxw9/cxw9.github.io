@@ -864,7 +864,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     #- <link rel="stylesheet" href="https://butterfly.lete114.top/css/Lete.css">
-    - <link rel="stylesheet" href="/lab/css/lete.css">    
+    - <link rel="stylesheet" href="/lab/css/lab.css">    
     - <link rel="stylesheet" href="/lab/css/diy.css">    
     
   bottom:
@@ -876,7 +876,7 @@ inject:
     #- <script src="/lab/js/xkTool.js"></script>
     #- <script data-pjax src="/lab/js/diy.js"></script>  
     #- <script data-pjax src="https://butterfly.lete114.top/js/Lete.js"></script>        
-    - <script data-pjax src="/lab/js/lete.js"></script>   
+    - <script data-pjax src="/lab/js/lab.js"></script>   
     #- <script data-pjax src="/lab/js/diy.js"></script>   
     #统计页面
     #- <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>    
