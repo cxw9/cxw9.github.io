@@ -95,7 +95,7 @@ deploy:
     repository:
       github: https://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@github.com/runrab/runrab.github.io.git
       #coding: https://username:password@e.coding.net/owner/repo
-    branch: master 
+    branch: main 
   - type: baidu_url_submitter     
 #RSS
 feed:
